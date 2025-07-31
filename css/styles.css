@@ -3,10 +3,13 @@ body {
     color: #434455;
     line-height: 1.5;
     background-color: #FFFFFF;
-    
+
 }
 
-h1, h2, h3, p {
+h1,
+h2,
+h3,
+p {
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -32,10 +35,10 @@ img {
     padding: 0 15px;
 }
 
-.header .container { 
+.header .container {
     display: flex;
     justify-content: space-between;
-   
+
     align-items: center;
 }
 
@@ -64,12 +67,11 @@ img {
     display: flex;
     flex-direction: row;
     gap: 40px;
-    
+
 }
 
 .nav .stud {
     color: #2e2f42;
-    padding-right: 76px;
     align-items: center;
 }
 
@@ -80,6 +82,7 @@ img {
     letter-spacing: 0.02em;
     color: #2E2F42;
     text-decoration: none;
+    display: block;
     padding: 24px 0;
 }
 
@@ -104,7 +107,6 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
-    padding-right: 40px;
 }
 
 .connect .addr:hover,
@@ -119,8 +121,16 @@ img {
 }
 
 .title {
-  background-color: #2E2F42;
-  padding: 188px 0;
+    background-color: #2E2F42;
+    padding: 188px 0;
+    background-image: 
+        linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/people-office.jpg);
+    background-repeat: no-repeat;
+    background-size: 1140px;
 }
 
 .title .container {
@@ -129,11 +139,12 @@ img {
     justify-content: center;
     align-items: center;
     
+
 }
 
 .container .htitle {
     max-width: 496px;
-    padding-bottom: 48px;
+    margin-bottom: 48px;
 }
 
 .container .button {
@@ -146,7 +157,7 @@ img {
 
 .title .htitle {
     font-size: 56px;
-    font-weight: bold;
+    font-weight: 700;
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
@@ -171,7 +182,7 @@ img {
 
 .main {
     padding: 120px 0;
-    
+
 
 }
 
@@ -190,7 +201,8 @@ img {
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
-    overflow: hidden; }
+    overflow: hidden;
+}
 
 .main-list {
     display: flex;
@@ -200,8 +212,6 @@ img {
 }
 
 .main-list .parag {
-    padding: 0;
-    width: 264px;
     width: calc((100% - 72px) / 4);
 }
 
@@ -212,8 +222,8 @@ img {
     letter-spacing: 0.02em;
     color: #2E2F42;
     margin-bottom: 8px;
-    
-    
+
+
 }
 
 .main-p {
@@ -235,17 +245,15 @@ img {
 }
 
 .our-t-list {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-  gap: 24px;
+    list-style: none;
+    display: flex;
+    gap: 24px;
 }
 
 .our-t-list .team-list {
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
     background-color: #FFFFFF;
-    width: 264px;
 }
 
 .our-team {
@@ -259,8 +267,8 @@ img {
 }
 
 .team-list .descr {
-  padding: 32px 0;
-}  
+    padding: 32px 0;
+}
 
 .descr .name-team {
     text-align: center;
@@ -271,6 +279,7 @@ img {
     color: #2E2F42;
     margin-bottom: 8px;
 }
+
 .descr .position-team {
     font-weight: 400;
     font-size: 16px;
@@ -289,7 +298,6 @@ img {
 .our-p-list {
     list-style: none;
     display: flex;
-    justify-content: center;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
@@ -333,9 +341,6 @@ img {
     color: #434455;
 }
 
-
-
-
 footer {
     background-color: #2E2F42;
     padding: 100px 0;
@@ -356,7 +361,7 @@ footer {
 }
 
 .footer .container .two-part {
-    color: #f4f4fd; 
+    color: #f4f4fd;
     display: inline-block;
 }
 
