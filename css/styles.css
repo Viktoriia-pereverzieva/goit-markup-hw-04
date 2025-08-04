@@ -450,17 +450,17 @@ footer {
     display: flex;
     margin: 0 auto;
     gap: 120px;
-    max-width: 1440px;
 }
 
-.footer .container {
+.footer .container-box {
     display: flex;
     flex-direction: column;
     align-items: baseline;
     margin-right: 120px;
+    margin: 0 auto;
 }
 
-.footer .container .one-part {
+.footer .container-box .one-part {
     display: inline-block;
     margin-bottom: 16px;
     font-family: "Raleway", sans-serif;
@@ -473,7 +473,7 @@ footer {
     text-decoration: none;
 }
 
-.footer .container .two-part {
+.footer .container-box .two-part {
     color: #f4f4fd;
     display: inline-block;
 }
