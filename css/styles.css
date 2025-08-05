@@ -153,6 +153,7 @@ bottom: -1px;
     background-position: center center;
     background-size: cover;
     max-width: 1440px;
+    margin: 0 auto;
 }
 
 .title .container {
@@ -241,7 +242,6 @@ bottom: -1px;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 24px 0;
     background-color: #F4F4FD;
     border-radius: 4px;
     border: 1px solid #8E8F99;
@@ -360,6 +360,7 @@ bottom: -1px;
     letter-spacing: 0.02em;
     text-align: center;
     color: #434455;
+    margin-bottom: 8px;
 }
 
 
@@ -456,12 +457,7 @@ footer {
 
 .contant-foot {
     display: flex;
-    flex-direction: row;
     align-items: baseline;
-    gap: 120px;
-    max-width: 1158px;
-    margin: 0 auto;
-    padding: 0 15px;
 }
 
 .footer .container-box {
@@ -487,13 +483,6 @@ footer {
 .container-box .two-part {
     color: #f4f4fd;
     display: inline-block;
-}
-
-.container-soc {
-    display: flex;
-    flex-direction: column;
-    max-width: 1440px;
-    
 }
 
 .container-soc .p-foot {
