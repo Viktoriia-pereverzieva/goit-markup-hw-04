@@ -152,6 +152,7 @@ bottom: -1px;
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    max-width: 1440px;
 }
 
 .title .container {
