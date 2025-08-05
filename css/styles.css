@@ -457,7 +457,7 @@ footer {
 .contant-foot {
     display: flex;
     flex-direction: row;
-    justify-content:baseline;
+    align-items: baseline;
     gap: 120px;
     max-width: 1158px;
     margin: 0 auto;
